@@ -1,0 +1,20 @@
+﻿{
+  "node1": {
+    "node1node1": "node1node1value",
+    "node1node2": [ "value1", "value2" ],
+    "node1node3": {
+      "node1node3node1": "node1node3node1value"
+    }
+  },
+  "node2": true,
+  "node3": {
+    "node3node1": "node3SubNode1Value",
+    "node3node2": {
+      "node3node2node1": {
+        "node3node2node1node1": [ 1, 2, 3 ]
+      },
+      "node3node2node2": "node3node2node1value"
+    }
+  },
+  "node4": "{\"node4node1\": \"n4n1value\", \"node4node2\": \"n4n1value\"}"
+}

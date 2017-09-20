@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftAssertions", "SoftAssertions\SoftAssertions.csproj", "{DB6A61F3-DA41-46BB-B986-B949EDC4B54C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonPathConverter", "JsonPathConverter\JsonPathConverter.csproj", "{5580E77B-813E-4E7D-9410-66B1A171D71E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DB6A61F3-DA41-46BB-B986-B949EDC4B54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6A61F3-DA41-46BB-B986-B949EDC4B54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6A61F3-DA41-46BB-B986-B949EDC4B54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5580E77B-813E-4E7D-9410-66B1A171D71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5580E77B-813E-4E7D-9410-66B1A171D71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5580E77B-813E-4E7D-9410-66B1A171D71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5580E77B-813E-4E7D-9410-66B1A171D71E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

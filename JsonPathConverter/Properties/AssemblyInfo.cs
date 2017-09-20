@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("SoftAssertions")]
+[assembly: AssemblyTitle("JsonPathConverter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SoftAssertions")]
+[assembly: AssemblyProduct("JsonPathConverter")]
 [assembly: AssemblyCopyright("Copyright ©  http://automationrhapsody.com/ 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("db6a61f3-da41-46bb-b986-b949edc4b54c")]
+[assembly: Guid("5580e77b-813e-4e7d-9410-66b1a171d71e")]
 
 // Version information for an assembly consists of the following four values:
 //

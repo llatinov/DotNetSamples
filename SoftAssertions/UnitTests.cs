@@ -3,7 +3,7 @@
 namespace SoftAssertions
 {
     [TestClass]
-    public class UnitTest
+    public class UnitTests
     {
         private SoftAssertions _softAssertions;
 
