@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
 
@@ -41,13 +42,20 @@ namespace SoftAssertions
             private readonly string _expected;
             private readonly string _actual;
 
-            public bool Failed => _expected != _actual;
+            public bool Failed { get; }
 
             public SingleAssert(string message, string expected, string actual)
             {
                 _message = message;
                 _expected = expected;
                 _actual = actual;
+
+                Failed = _expected != _actual;
+                if (Failed)
+                {
+                    // TODO Do someting in case of failure, e.g. take screenshto
+                    Console.WriteLine("Take screenshot");
+                }
             }
 
             public override string ToString()
