@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
 
@@ -54,7 +53,8 @@ namespace SoftAssertions
                 if (Failed)
                 {
                     // TODO Do someting in case of failure, e.g. take screenshot
-                    Console.WriteLine("Take screenshot");
+                    var screenshot = "MethodToSaveScreenshotAndReturnFilename";
+                    _message += $". Screenshot captured at: {screenshot}";
                 }
             }
 
