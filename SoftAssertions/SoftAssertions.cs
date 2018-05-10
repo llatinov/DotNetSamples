@@ -53,7 +53,7 @@ namespace SoftAssertions
                 Failed = _expected != _actual;
                 if (Failed)
                 {
-                    // TODO Do someting in case of failure, e.g. take screenshto
+                    // TODO Do someting in case of failure, e.g. take screenshot
                     Console.WriteLine("Take screenshot");
                 }
             }
